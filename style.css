@@ -99,11 +99,17 @@ body {
     }
 }
 
+.first-list:hover,
+.second-list:hover {
+    cursor: pointer;
+}
+
 .first-list:focus-within,
 .second-list:focus-within {
     transform: translate(-50%, -50%) scale(1) rotate(0deg);
     transition: 1s;
     z-index: 1;
+    cursor: default;
 }
 
 .first-list-profile {
@@ -776,6 +782,11 @@ body {
     z-index: 0;
     }
 
+    .first-list:hover,
+    .second-list:hover {
+    cursor: default;
+    }
+
     .second-list-autobiography-text {
         border-top: var(--border-standart);
         padding: var(--base-padding-element);
@@ -889,6 +900,11 @@ body {
     transform: translate(0, 0) scale(1) rotate(0deg);
     transition: 0s;
     z-index: 0;
+    }
+
+    .first-list:hover,
+    .second-list:hover {
+    cursor: default;
     }
 
     .first-list-profile {
