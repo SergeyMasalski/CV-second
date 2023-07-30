@@ -335,6 +335,7 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    gap: 15px;
 }
 
 .first-list-skills-first-cv > a {
