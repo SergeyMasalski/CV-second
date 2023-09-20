@@ -483,6 +483,7 @@ body {
 .second-list-autobiography {
     display: flex;
     height: 100%;
+    font-size: 0.8rem;
 }
 
 .second-list-autobiography-img {
